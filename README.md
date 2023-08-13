@@ -95,21 +95,21 @@ systemctl status zabbix-server.service
 ```
 Далее смотрим скришоты: 
 
-# ![image1](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/1.PNG)
+# ![image1](https://github.com/LokyRUS/Zabbix/blob/sys/images/1.PNG)
 - Выбираем тут язык, на котором работет ситема, в данном случае rus
 
-# ![image2](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/2.PNG)
+# ![image2](https://github.com/LokyRUS/Zabbix/blob/sys/images/2.PNG)
 - Смотрим, нет ли ошибок, если ошибки есть то фиксим
 
-# ![image3](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/3.PNG)
+# ![image3](https://github.com/LokyRUS/Zabbix/blob/sys/images/3.PNG)
 
 - На данном этапе, внимально указываем ip сервера или оставляем Localhost, если порт по умочанию то ставляем `0`, указываем пароль и пользователья
 
-# ![image4](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/4.PNG)
+# ![image4](https://github.com/LokyRUS/Zabbix/blob/sys/images/4.PNG)
 
 - Если попали на это окно, значит все получилось, указываем имя скрвера и можно запускать.
 
-# ![image5](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/5.PNG)
+# ![image5](https://github.com/LokyRUS/Zabbix/blob/sys/images/5.PNG)
 
 Стандртные данные авторизации
 - логин- `Admin`
@@ -122,11 +122,11 @@ apt install zabbix-agent
 ```console
 systemctl status zabbix-agent.service
 ```
-# ![image6](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/6.PNG)
+# ![image6](https://github.com/LokyRUS/Zabbix/blob/sys/images/6.PNG)
 
 - Агент подключился
 
-# ![image7](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/7.PNG)
+# ![image7](https://github.com/LokyRUS/Zabbix/blob/sys/images/7.PNG)
 
 - полученные метрики 
 
@@ -179,30 +179,30 @@ systemctl status zabbix-agent
 
 ## Подключаем хост 
 
-# ![image8](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/8.PNG)
+# ![image8](https://github.com/LokyRUS/Zabbix/blob/sys/images/8.PNG)
 - Настройки>>Узлы cети 
 - Жмем создать узел сети
 
-# ![image9](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/9.PNG)
+# ![image9](https://github.com/LokyRUS/Zabbix/blob/sys/images/9.PNG)
 
 - Имя узла, любое 
 - обязательно назначаем или создаем группу
 - добавляем итерфейс `agent` , указываем ip адрес, порт остается по умолчани
 - Жмем добавить
 
-# ![image10](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/10.PNG)
+# ![image10][(https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/10.PNG](https://github.com/LokyRUS/Zabbix/blob/sys/images/10.PNG))
 
 ### добавляем метрики для агента 
 
-# ![image11](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/11.PNG)
+# ![image11](https://github.com/LokyRUS/Zabbix/blob/sys/images/11.PNG)
 
 - видим что появились метрики, проваливаемся в метрики для принудительного сбора 
 
-# ![image12](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/12.PNG)
+# ![image12](https://github.com/LokyRUS/Zabbix/blob/sys/images/12.PNG)
 
 - Выбираем любой метрик и нажимаем `Выполнить сейчас`
 
-# ![image13](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/13.PNG)
+# ![image13](https://github.com/LokyRUS/Zabbix/blob/sys/images/13.PNG)
 
 - На данном скире видно, что агент видим но не получил метрики из за отсутствия доступа у серверу
 
@@ -220,14 +220,14 @@ nano /etc/zabbix/zabbix_agentd.conf
 ```
  tail -f /var/log/zabbix-agent/zabbix_agentd.log
 ``` 
-# ![image14](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/14.PNG)
+# ![image14](https://github.com/LokyRUS/Zabbix/blob/sys/images/14.PNG)
 - Видим, что агент не имеет разрешения на подключение 
 
 ## Перезагружаем агент для принятия настроек
 ```console
 systemctl restart zabbix-agent
 ```
-# ![image15](https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/15.PNG)
+# ![image15](https://github.com/LokyRUS/Zabbix/blob/sys/images/15.PNG)
 Видим что агент подключился
 
 
