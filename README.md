@@ -190,7 +190,7 @@ systemctl status zabbix-agent
 - добавляем итерфейс `agent` , указываем ip адрес, порт остается по умолчани
 - Жмем добавить
 
-# ![image10][(https://github.com/LokyRUS/my-portfolio/blob/porto/Netology/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%20%E2%84%968.%20%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/2.%20Zabbix%20%D0%A7.1/images/10.PNG](https://github.com/LokyRUS/Zabbix/blob/sys/images/10.PNG))
+# ![image10](https://github.com/LokyRUS/Zabbix/blob/sys/images/10.PNG)
 
 ### добавляем метрики для агента 
 
