@@ -19,7 +19,7 @@ apt upgrade
 apt install postgresql
 ```
 ## Установим `zabbix server`
-- Для установки, можно воспользоваться офсайтом https://www.zabbix.com/ или использовать команды ниже: 
+# ! Для установки, можно воспользоваться офсайтом https://www.zabbix.com/ или использовать команды ниже: 
 ## установим ZABBIX VERSION 6.0 LTS>>Debian>>11 (Bullseye)>>Server, Frontend, Agent>>PostgreSQL>>Apache
 - Скачиваем deb пакет из забикс репазитория
 ```console
